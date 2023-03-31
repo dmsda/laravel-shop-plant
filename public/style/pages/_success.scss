@@ -1,0 +1,31 @@
+.page-success {
+  .row-login {
+    min-height: 75vh;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #0c0d36;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #525252;
+  }
+
+  .btn {
+    border-radius: 20px;
+  }
+
+  .btn-signup {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+    @include button-variant(#f3f3f3, transparent);
+    color: #bbb;
+  }
+}
